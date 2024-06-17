@@ -24,7 +24,7 @@ const PromoBar = () => {
         <div>
           <h1>
             <FontAwesomeIcon icon={faRotate} />
-            <span> Get a quote for your old tech by trading them in</span>
+            <span> Trade in your old tech</span>
           </h1>
         </div>
       </section>

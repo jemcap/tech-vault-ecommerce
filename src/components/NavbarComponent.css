@@ -1,0 +1,32 @@
+.nav-link {
+  color: #555 !important;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  color: #d4d4d4 !important;
+}
+
+.button-custom {
+  background: none;
+  border: none;
+  color: black;
+  margin-left: 15px;
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+}
+
+.button-custom:hover {
+  color: #fff;
+}
+
+.button-checkout {
+  border: none;
+  color: #ffffff;
+  margin-top: 1rem;
+}
+
+.button-checkout:hover {
+  background-color: #0056b3;
+}

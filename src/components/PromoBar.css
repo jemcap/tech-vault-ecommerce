@@ -1,11 +1,22 @@
 #promo-bar {
   display: flex;
-  background-color: rgb(233, 233, 233);
-  justify-content: space-between;
-  padding: 20px 20px 10px;
-  border-top: solid 1.2px rgb(207, 207, 207);
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-bottom: 2px solid #e0e0e0;
 }
 
-#promo-bar > div > h1 {
-  font-size: 1em;
+#promo-bar > div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#promo-bar h1 {
+  font-size: 1.2rem;
+  color: #343a40;
+  margin: 0;
+  font-weight: 500;
+  margin-left: 0.5rem;
 }

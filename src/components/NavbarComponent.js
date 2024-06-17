@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import WishListItem from "./WishListItem";
+import "./NavbarComponent.css";
 
 const NavbarComponent = () => {
   const [showModal, setShowModal] = useState(false);
@@ -29,29 +30,11 @@ const NavbarComponent = () => {
   const handleShowWishlistModal = () => {
     setShowWishlist(true);
   };
-
-  const checkout = async () => {
-    await fetch("http://localhost:4000/checkout", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ items: cartContext.items }),
-    })
-      .then((response) => {
-        return response.json();
-      })
-      .then((response) => {
-        if (response.url) {
-          window.location.assign(response.url);
-        }
-      });
-  };
   return (
     <>
-      <Navbar expand="sm" className="justify-content-center">
-        <Navbar.Brand href="/">
-          <img src={logo} width={120} alt={logo} />
+      <Navbar expand="sm" className="justify-content-center navbar-custom">
+        <Navbar.Brand href="/" className="navbar-brand">
+          <img src={logo} width={120} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
@@ -63,23 +46,25 @@ const NavbarComponent = () => {
               <Nav.Link href="/store">PRODUCTS</Nav.Link>
             </Nav.Item>
           </Nav>
-        </Navbar.Collapse>
-        <Navbar.Collapse className="justify-content-end">
-          <Button onClick={handleShowWishlistModal} className="mx-3">
+          <Button
+            onClick={handleShowWishlistModal}
+            className="mx-3 button-custom"
+          >
             <FontAwesomeIcon icon={faHeart} />
           </Button>
-          <Button onClick={handleShowModal}>
+          <Button onClick={handleShowModal} className="button-custom">
             <FontAwesomeIcon icon={faCartShopping} />
-            {productQuantity ? `${"(" + productQuantity + ")"}` : undefined}
+            {productQuantity ? `(${productQuantity})` : undefined}
           </Button>
         </Navbar.Collapse>
       </Navbar>
+
       {/* Cart modal */}
       <Modal show={showModal} onHide={handleCloseModal}>
-        <Modal.Header closeButton>
+        <Modal.Header closeButton className="modal-header">
           <Modal.Title>Shopping Cart</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="modal-body">
           {productQuantity > 0 ? (
             <>
               <p>Items in cart:</p>
@@ -87,7 +72,7 @@ const NavbarComponent = () => {
                 <CartItem product={item} key={index} />
               ))}
               <h1>Total: £{cartContext.getTotalCost().toFixed(2)}</h1>
-              <Button variant="success" onClick={checkout}>
+              <Button variant="success" className="button-checkout">
                 Checkout
               </Button>
             </>
@@ -96,12 +81,13 @@ const NavbarComponent = () => {
           )}
         </Modal.Body>
       </Modal>
+
       {/* Wishlist modal */}
       <Modal show={showWishlist} onHide={handleCloseWishlistModal}>
-        <Modal.Header closeButton>
+        <Modal.Header closeButton className="modal-header">
           <Modal.Title>Saved</Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body className="modal-body">
           {cartContext.wishListItems.map((item, index) => (
             <WishListItem product={item} key={index} />
           ))}
