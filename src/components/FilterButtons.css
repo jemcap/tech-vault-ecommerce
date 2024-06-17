@@ -1,0 +1,5 @@
+.wrap-buttons {
+  flex-wrap: wrap !important;
+  display: flex;
+  justify-content: center;
+}
