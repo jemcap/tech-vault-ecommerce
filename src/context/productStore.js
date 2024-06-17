@@ -1,4 +1,3 @@
-import { createContext } from "react";
 import products from "./products";
 
 const productsArr = products;

@@ -78,7 +78,7 @@ export function CartProvider({ children }) {
 
   function getTotalCost() {
     let totalCost = 0;
-    cartProducts.map((product) => {
+    cartProducts.forEach((product) => {
       const productData = getProductData(product.id);
       totalCost += productData.price * product.quantity;
     });
