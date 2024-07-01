@@ -32,7 +32,7 @@ const NavbarComponent = () => {
   };
   return (
     <>
-      <Navbar expand="sm" className="justify-content-center navbar-custom">
+      <Navbar expand="sm" className="navbar-custom">
         <Navbar.Brand href="/" className="navbar-brand">
           <img src={logo} width={120} alt="logo" />
         </Navbar.Brand>

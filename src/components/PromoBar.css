@@ -20,3 +20,11 @@
   font-weight: 500;
   margin-left: 0.5rem;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+  #promo-bar h1 {
+    font-size: 1em;
+  }
+}
