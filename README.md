@@ -56,13 +56,13 @@ To use Tech Vault, follow these steps:
 
    - Click on a product to view detailed information, including descriptions, specifications, and pricing.
 
-3. **Add to Cart:**
+3. **Add to Saved:**
 
-   - Add desired products to your shopping cart for purchase.
+   - Add desired products to your Saved to watch the item(s). You can either remove from your Saved list or simply add it to your cart.
 
-4. **Add to Saved:**
+4. **Add to Cart:**
 
-   - Add desired products to your Saved to watch the item(s).
+   - Add desired products to your shopping cart for purchase. You can increment and decrement the quantity of that product which recalculates the total price of all items in the cart and the specific item(s). You can also delete the item from the cart.
 
 ## 🪪 **License**
 
