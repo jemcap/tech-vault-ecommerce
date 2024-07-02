@@ -18,6 +18,12 @@ Throughout the development of Tech Vault, the following key skills and knowledge
 - Optimising application performance with code splitting and routing.
 - Designing and styling a responsive and engaging user interface using CSS-in-JS and React Bootstrap.
 
+  ## **Demo**
+
+  ![Adding products to Cart](src/assets/add_products_to_cart_demo.png)
+
+  ![Adding products to Saved](src/assets/add_products_to_saved.png)
+
 ## 💻 **Installation**
 
 To install and set up Tech Vault locally, follow these steps:
@@ -57,14 +63,6 @@ To use Tech Vault, follow these steps:
 4. **Add to Saved:**
 
    - Add desired products to your Saved to watch the item(s).
-
-   ```md
-   ![Adding products to cart](./src/assets/add_products_to_cart_demo.png)
-   ```
-
-   ```md
-   ![Adding products to Saved](./src/assets/add_products_to_saved.png)
-   ```
 
 ## 🪪 **License**
 
