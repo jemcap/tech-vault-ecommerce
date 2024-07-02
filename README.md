@@ -18,12 +18,6 @@ Throughout the development of Tech Vault, the following key skills and knowledge
 - Optimising application performance with code splitting and routing.
 - Designing and styling a responsive and engaging user interface using CSS-in-JS and React Bootstrap.
 
-## 🗂️ **Table of Contents**
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-
 ## 💻 **Installation**
 
 To install and set up Tech Vault locally, follow these steps:
