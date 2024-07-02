@@ -31,7 +31,7 @@ import ContaxG2 from "../assets/5e518672-8e49-47a0-81cd-841ff669002b.png";
 
 const products = [
   {
-    id: "price_1PRW5lP6OUPMzri5NTjao0d7",
+    id: 1,
     text: "Vintage Sony Walkman",
     description: [
       "Classic portable cassette player",
@@ -46,7 +46,7 @@ const products = [
     image: SonyWalkmanImg,
   },
   {
-    id: "price_1PRWPtP6OUPMzri50FRI9Wzl",
+    id: 2,
     text: "Vintage Sennheiser HD414 Headphones",
     description: [
       "Legendary open-back headphones",
@@ -61,7 +61,7 @@ const products = [
     image: SennheiserHD414Img,
   },
   {
-    id: "price_1PRWR5P6OUPMzri5UMXMsL5W",
+    id: 3,
     text: "Vintage IBM Model M Keyboard",
     description: [
       "Mechanical keyboard with buckling springs",
@@ -76,7 +76,7 @@ const products = [
     image: IBMKeyboardImg,
   },
   {
-    id: "price_1PRXhZP6OUPMzri5dLwjlqZe",
+    id: 4,
     text: "Vintage Polaroid SX-70 Instant Camera",
     description: [
       "Iconic folding instant camera",
@@ -91,7 +91,7 @@ const products = [
     image: PolaroidCameraImg,
   },
   {
-    id: "price_1PRXipP6OUPMzri5imfRFLCF",
+    id: 5,
     text: "Vintage Kodak Brownie Hawkeye Camera",
     description: [
       "Classic box camera design",
@@ -106,7 +106,7 @@ const products = [
     image: KodakBrownieImg,
   },
   {
-    id: "price_1PRXjXP6OUPMzri5KSOq96oW",
+    id: 6,
     text: "Vintage Grundig Tube Radio",
     description: [
       "Beautiful wooden cabinet design",
@@ -121,7 +121,7 @@ const products = [
     image: GrundigTubeRadioImg,
   },
   {
-    id: "price_1PRXk2P6OUPMzri5ezXcCYyS",
+    id: 7,
     text: "Vintage Braun T3 Pocket Calculator",
     description: [
       "Slim and stylish pocket calculator",
@@ -136,7 +136,7 @@ const products = [
     image: BraunT3PocketCalculatorImg,
   },
   {
-    id: "price_1PRXkUP6OUPMzri52TLaSS4o",
+    id: 8,
     text: "Vintage Smith-Corona Typewriter",
     description: [
       "Classic manual typewriter",
@@ -151,7 +151,7 @@ const products = [
     image: SmithCoronaTypewriterImg,
   },
   {
-    id: "price_1PRXlCP6OUPMzri56SJasLt9",
+    id: 9,
     text: "Vintage Leica M3 Camera",
     description: [
       "Legendary rangefinder camera",
@@ -166,7 +166,7 @@ const products = [
     image: LeicaM3Img,
   },
   {
-    id: "price_1PRXljP6OUPMzri5e3VdS5Oi0",
+    id: 10,
     text: "Vintage Panasonic RX-5600 Boombox",
     description: [
       "Powerful portable cassette player",
@@ -181,7 +181,7 @@ const products = [
     image: PanasonicRX5600Img,
   },
   {
-    id: "price_1PRY8oP6OUPMzri5ItibbBj2",
+    id: 11,
     text: "Vintage Zenith Trans-Oceanic Radio",
     description: [
       "Classic shortwave radio",
@@ -196,7 +196,7 @@ const products = [
     image: ZenithRadioImg,
   },
   {
-    id: "price_1PRY9dP6OUPMzri5ilHPZ8XB",
+    id: 12,
     text: "Vintage Bolex 581 Sound Macrozoom Camera",
     description: [
       "Italian-designed portable typewriter",
@@ -211,7 +211,7 @@ const products = [
     image: FilmCineCamImg,
   },
   {
-    id: "price_1PRYA9P6OUPMzri5uzYSp3oI",
+    id: 13,
     text: "Vintage Polaroid Land Camera Model 100",
     description: [
       "Instant camera with folding bellows design",
@@ -226,7 +226,7 @@ const products = [
     image: PolaroidLandCameraImg,
   },
   {
-    id: "price_1PRYAcP6OUPMzri5yzOnVdDa",
+    id: 14,
     text: "Vintage Revox A77 Reel-to-Reel Tape Recorder",
     description: [
       "High-end reel-to-reel tape recorder",
@@ -241,7 +241,7 @@ const products = [
     image: RevoxTapeRecorderImg,
   },
   {
-    id: "price_1PRYB7P6OUPMzri5yHyS7rGV",
+    id: 15,
     text: "Vintage Marantz 2270 Stereo Receiver",
     description: [
       "Classic silver-faced stereo receiver",
@@ -256,7 +256,7 @@ const products = [
     image: Marantz2270Img,
   },
   {
-    id: "price_1PRYBcP6OUPMzri5EUbSEy86",
+    id: 16,
     text: "Vintage Nintendo Entertainment System (NES)",
     description: [
       "Iconic 8-bit gaming console",
@@ -271,7 +271,7 @@ const products = [
     image: NESImg,
   },
   {
-    id: "price_1PRYC6P6OUPMzri5RdN5wvle",
+    id: 17,
     text: "Vintage Atari 2600 Console",
     description: [
       "Classic video game console",
@@ -286,7 +286,7 @@ const products = [
     image: Atari2600Img,
   },
   {
-    id: "price_1PRYCYP6OUPMzri5Miik1xbP",
+    id: 18,
     text: "Vintage Apple Macintosh Plus Computer",
     description: [
       "Iconic all-in-one desktop computer",
@@ -301,7 +301,7 @@ const products = [
     image: VintageMacImg,
   },
   {
-    id: "price_1PRYD1P6OUPMzri5zSyLkn4T",
+    id: 19,
     text: "Vintage Commodore 64 Computer",
     description: [
       "Legendary home computer",
@@ -316,7 +316,7 @@ const products = [
     image: Comodore64Img,
   },
   {
-    id: "price_1PRYENP6OUPMzri5p2zXZpw2",
+    id: 20,
     text: "Vintage Nokia 3310 Cell Phone",
     description: [
       "Indestructible mobile phone",
@@ -331,7 +331,7 @@ const products = [
     image: Nokia3310MobileImg,
   },
   {
-    id: "price_1PRYF2P6OUPMzri5itspdnoJ",
+    id: 21,
     text: "Vintage Sony Trinitron Color TV",
     description: [
       "Iconic CRT television",
@@ -346,7 +346,7 @@ const products = [
     image: TrinitronColorTVImg,
   },
   {
-    id: "price_1PRYFcP6OUPMzri5mEPws5Hb",
+    id: 22,
     text: "Vintage Bang & Olufsen Beogram Turntable",
     description: [
       "High-end belt-driven turntable",
@@ -361,7 +361,7 @@ const products = [
     image: BOTurntableImg,
   },
   {
-    id: "price_1PRYG9P6OUPMzri55GxrjgGd",
+    id: 23,
     text: "Vintage Schwinn Bicycle",
     description: [
       "Iconic American bicycle",
@@ -376,7 +376,7 @@ const products = [
     image: SchwinnBikeImg,
   },
   {
-    id: "price_1PRYGgP6OUPMzri5wJAFTrOO",
+    id: 24,
     text: "Vintage Nikon F3",
     description: [
       "Classic rangefinder camera",
@@ -391,7 +391,7 @@ const products = [
     image: NikonCameraF3Img,
   },
   {
-    id: "price_1PRYHFP6OUPMzri59LCPw7ze",
+    id: 25,
     text: "Vintage Gibson Les Paul Guitar",
     description: [
       "Iconic electric guitar",
@@ -406,7 +406,7 @@ const products = [
     image: LesPaulGuitar,
   },
   {
-    id: "price_1PRYHgP6OUPMzri5V6QvvTr7",
+    id: 26,
     text: "Vintage GameBoy Handheld Console",
     description: [
       "Classic handheld gaming console",
@@ -421,7 +421,7 @@ const products = [
     image: GameBoy,
   },
   {
-    id: "price_1PRYIAP6OUPMzri5fiDAaEPl",
+    id: 27,
     text: "Vintage Seiko Pogue Chronograph Watch",
     description: [
       "Legendary Seiko chronograph",
@@ -436,7 +436,7 @@ const products = [
     image: SeikoWatch,
   },
   {
-    id: "price_1PRYIeP6OUPMzri5Bx0rF2OX",
+    id: 28,
     text: "Vintage Singer Featherweight Sewing Machine",
     description: [
       "Iconic portable sewing machine",
@@ -451,7 +451,7 @@ const products = [
     image: SewingMachine,
   },
   {
-    id: "price_1PRYJ9P6OUPMzri5xjugtJt2",
+    id: 29,
     text: "Vintage Hamilton Beach Milkshake Mixer",
     description: [
       "Iconic milkshake mixer",
@@ -467,7 +467,7 @@ const products = [
     image: MilkshakeMixer,
   },
   {
-    id: "price_1PRYJbP6OUPMzri5BYU2DMqc",
+    id: 30,
     text: "Vintage Contax G2 Camera",
     description: [
       "High-end 35mm film rangefinder camera",

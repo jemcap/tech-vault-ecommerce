@@ -1,69 +1,86 @@
 # Tech Vault Ecommerce
 
-## Description
+## 📝 **Description**
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+Tech Vault is an Ecommerce website dedicated to selling rare vintage tech products. This platform offers a curated selection of iconic gaming systems, timeless computing devices, and retro gadgets at unbeatable prices.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+**Motivation:**
+The motivation behind building Tech Vault stemmed from the desire to gain practical, hands-on experience with React, enhancing theoretical knowledge through real-world application. The project also aimed to understand and implement efficient state management, optimize application performance, and create a visually appealing and user-friendly shopping experience.
 
-Tech Vault is an Ecommerce website that sells rare vintage tech products
+**Problem Solved:**
+Tech Vault solves the problem of finding rare and luxury vintage tech products by providing a dedicated platform with a carefully curated selection, ensuring quality and authenticity for tech enthusiasts and collectors.
 
-## Table of Contents (Optional)
+**Learnings:**
+Throughout the development of Tech Vault, the following key skills and knowledge areas were reinforced:
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+- Structuring and managing complex applications using React's component-based architecture.
+- Implementing state management using React hooks such as useState, useEffect, useReducer, and Context API.
+- Optimising application performance with code splitting and routing.
+- Designing and styling a responsive and engaging user interface using CSS-in-JS and React Bootstrap.
+
+## 🗂️ **Table of Contents**
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
 
-## Installation
+## 💻 **Installation**
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+To install and set up Tech Vault locally, follow these steps:
 
-## Usage
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/tech-vault-ecommerce.git
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd tech-vault-ecommerce
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
+5. Open your browser and visit `http://localhost:3000` to see the application in action.
 
-Provide instructions and examples for use. Include screenshots as needed.
+## 🚀 **Usage**
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+To use Tech Vault, follow these steps:
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+1. **Browse Products:**
+   - Navigate through different categories to explore the curated selection of vintage tech products.
+2. **View Product Details:**
 
-## Credits
+   - Click on a product to view detailed information, including descriptions, specifications, and pricing.
 
-List your collaborators, if any, with links to their GitHub profiles.
+3. **Add to Cart:**
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+   - Add desired products to your shopping cart for purchase.
 
-If you followed tutorials, include links to those here as well.
+4. **Add to Saved:**
 
-## License
+   - Add desired products to your Saved to watch the item(s).
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+   ```md
+   ![Adding products to cart](./src/assets/add_products_to_cart_demo.png)
+   ```
 
----
+   ```md
+   ![Adding products to Saved](./src/assets/add_products_to_saved.png)
+   ```
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+## 🪪 **License**
 
-## Badges
+![License](https://img.shields.io/badge/license-MIT-green) — (<Project-Title> is covered under MIT License.)
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+## ❔**How to Contribute**
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
+Any queries about this project, please feel welcome to reach out to me using the following credentials:
 
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+<h3>Josh Capito</h3>
+- LinkedIn: <a href="https://linkedin.com/joshuaecapito">Joshua Capito</a>
+<br />
+- Email: <a href="mailto:joshuaecapito22@gmail.com">Contact via Email</a>
